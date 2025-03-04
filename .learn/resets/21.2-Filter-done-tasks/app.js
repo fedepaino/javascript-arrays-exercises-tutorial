@@ -9,9 +9,4 @@ let tasks = [
   { label: "Make a trip", done: false },
 ];
 
-let newArray = tasks.filter(function(item) {
-	return item.done === true;
-})
-
-console.log(newArray);
 // Your code here
